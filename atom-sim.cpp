@@ -149,10 +149,10 @@ void display()
 
     if (value == -1)
     {
-        char cn[] = "GOVERNMENT ENGINEERING COLLEGE RAMANAGAR";
-        drawhead(-620, 900, 0, cn);
-        char pn[] = "B.M.ROAD,RAMANAGARA-562159";
-        drawsubhead(-300, 850, 0, pn);
+        char cn[] = "FARIDPUR ENGINEERING COLLEGE";
+        drawhead(-430, 900, 0, cn);
+        char pn[] = "FARIDPUR, BANGLADESH";
+        drawsubhead(-220, 850, 0, pn);
 
         char dn[] = "DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING";
         drawhead(-650, 650, 0, dn);
@@ -165,28 +165,18 @@ void display()
         char pb[] = "PROJECT BY: ";
         drawhead(-690, -150, 0, pb);
 
-        char p1[] = "ADARSH.N";
+        char p1[] = "SOHANUR RAHMAN EMON";
         drawhead(-690, -250, 0, p1);
-        char p1u[] = "1GG18CS002";
+        char p1u[] = "Roll: 2521, Reg: 1774";
         drawsubhead(-690, -300, 0, p1u);
-
-        char p2[] = "NITHIN KUMAR B";
-        drawhead(-690, -400, 0, p2);
-        char p2u[] = "1GG18CS028";
-        drawsubhead(-690, -450, 0, p2u);
 
         char gb[] = "GUIDED BY: ";
         drawhead(290, -150, 0, gb);
 
-        char g1[] = "Dr.SRI RAMACHANDRA L";
+        char g1[] = "RONY AHMED";
         drawhead(290, -250, 0, g1);
-        char d1[] = "Professor, Dept. Of CSE, GECR";
+        char d1[] = "Lecturer, Dept. Of CSE, FEC";
         drawsubhead(290, -300, 0, d1);
-
-        //char g2[] = "Sunil G L";
-        //drawhead(290, -400, 0, g2);
-        //char d2[] = "Assistant Professor, Dept. of CSE, SVIT";
-        //drawsubhead(290, -450, 0, d2);
 
         char in[] = "Press enter to Continue";
         drawhead(-250, -700, 0, in);
@@ -521,7 +511,7 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitWindowPosition(100, 100);
     glutInitWindowSize(700, 700);
-    glutCreateWindow("ATOM SIMULATION");
+    glutCreateWindow("ATOM SIMULATION BY EMONMAN");
     init();
     glutDisplayFunc(display);
     glutMouseFunc(mouseControl);
